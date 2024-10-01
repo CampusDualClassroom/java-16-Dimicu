@@ -8,7 +8,8 @@ public class Exercise16 {
 
 		plane.start();
 		tractor.start();
-
+		tractor.stop();
+		tractor.maintenance();
 		plane.fly();
 		tractor.forward();
 
